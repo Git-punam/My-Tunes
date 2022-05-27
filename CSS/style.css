@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Roboto:ital,wght@1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: lighter;
+}
+
+
+/* /////////////////////////////css for nav bar///////////////////////// */
+body > main > .header{
+    height: 10vh;
+    width: 100%;
+    background-color:rgb(184, 20, 20);
+    position: sticky;
+    top: 0;
+    color: white;
+    display: flex;
+}
+body > main > .header > .header-items{
+    padding-top: 15px;
+    width: 100px;
+    text-align: center;
+}
+
+
+/* //////////////////////css for the section just below nav bar///////////////////// */
+body > main > .landing{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+body > main > .landing > .banner-image{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+body > main > .landing > .banner-text{
+    font-weight:bolder;
+    position: absolute;
+    font-size: xx-large;
+    top: 15%;
+    left: 20%;
+}
+body > main > .landing > .banner-text > b{
+    letter-spacing: 2px;
+}
+
+
+/* ////////////////////////css for music section//////////////////////////////// */
+body > main > .music{
+    background-color: #2f3330;
+    height: 1180px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+body > main > .music > .music-text{
+    height: 30%;
+    width: 100%;
+    background-color: rgb(19, 19, 20);
+    color: white;
+    text-align:center;
+    font-weight: bolder;
+}
+body > main > .music > .music-text > .first{
+    display: inline-block;
+}
+body > main > .music > .music-device{
+    height: 70%;
+    width: 100%;
+    background-color: rgb(19, 19, 20);
+}
+body > main > .music > .music-device > .music-device-image{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+body > main > .music > .music-text > .start-your-trial-now{
+    color: white;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    background-color: rgb(184, 20, 20);
+    padding: 20px;
+}
+
+
+/* ///////////////////////////////////css for tv section///////////////////////////////////// */
+body > main > .tv{
+    background-color: #b1caf8;
+    height: 1180px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+body > main > .tv > .tv-text{
+    height: 30%;
+    width: 100%;
+    background-color: rgb(19, 19, 20);
+    color: white;
+    text-align:center;
+}
+body > main > .tv > .tv-text > .read-more{
+    color: white;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    background-color: rgb(184, 20, 20);
+    padding: 20px;
+}
+body > main > .tv > .tv-device{
+    height: 70%;
+    width: 100%;
+    background-color: rgb(19, 19, 20);
+}
+body > main > .tv > .tv-device > .tv-device-image{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+/* /////////////////////////css for entertainment section/////////////////// */
+body > main > .entertainment{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-image: url('../entertainment.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+body > main > .entertainment > .entertainment-text{
+    text-align: center;
+    color: white;
+}
+body > main > .entertainment >.entertainment-text > .text-1{
+    text-align: center;
+    font-size: 32px;
+    vertical-align: middle;
+}
+body > main > .entertainment >.entertainment-text >.text-2{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+
+/* ///////////////////////css for gift-cards section//////////////////// */
+body > main > .gift-cards{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+body > main > .gift-cards > .gift-cards-image{
+    height: 100%;
+    width: 50%;
+    text-align: right;
+}
+body > main > .gift-cards > .gift-cards-image > .cards-image{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    padding: 0px 40px 20px 40px;
+}
+body > main > .gift-cards > .gift-cards-text{
+    height: 100%;
+    width: 50%;
+    text-align: left;
+    padding: 100px 100px 80px 0px;
+}
+
+
+/* ///////////////////////css for footer section//////////////////// */
+body > main >.footer{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    background-color:  rgb(19, 19, 20);
+}
+body > main >.footer > .col{
+    height: 200px;
+    width: 200px; 
+    color: white;
+    margin: 40px 50px 0px 50px;
+}
+
+
+/* /////////////////////////css for final footer///////////////////////// */
+body > main >.final-footer{
+    height:10vh;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    background-color:  rgb(184, 20, 20);;
+}
+
+
+.header-anchor{
+    text-decoration: none;
+    color: white;
+}
+.header-items :hover{
+    background-color: rgb(141, 39, 39);
+}
+
+
+
+
+
+
+
